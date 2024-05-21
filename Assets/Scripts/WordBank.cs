@@ -8,7 +8,7 @@ public class WordBank : MonoBehaviour
 {
     [SerializeField] UnityEngine.TextAsset WordBankTXT;
     private List<string> originalWords = new List<string>();
-    public List<string> workingWords = new List<string>();
+    private List<string> workingWords = new List<string>();
 
     private void Awake()
     {
