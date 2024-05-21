@@ -5,11 +5,11 @@ using UnityEngine.UI;
 
 public class Typer : MonoBehaviour
 {
-    // WordBank here
+    public WordBank wordBank = null;
     public Text wordOutput = null;
 
     private string remainingWord = string.Empty;
-    private string currentWord = "test word";
+    private string currentWord = string.Empty;
 
     private void Start()
     {
@@ -18,7 +18,7 @@ public class Typer : MonoBehaviour
 
     private void SetCurrentWord()
     {
-        // Get word from bank
+        currentWord = wordBank.GetWord();
         SetRemainingWord(currentWord);
     }
 
