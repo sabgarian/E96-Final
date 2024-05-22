@@ -8,6 +8,8 @@ public class Typer : MonoBehaviour
     public WordBank wordBank = null;
     public Text wordOutput = null;
 
+    public TimerController timer;
+
     private string remainingWord = string.Empty;
     private string currentWord = string.Empty;
 
@@ -54,6 +56,7 @@ public class Typer : MonoBehaviour
 
             if(IsWordComplete())
             {
+                timer.ResetTimer();
                 SetCurrentWord();
             }
         }
