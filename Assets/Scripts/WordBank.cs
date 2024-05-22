@@ -40,16 +40,29 @@ public class WordBank : MonoBehaviour
 
     public string GetWord()
     {
-        string newWord = string.Empty;
-
-        if (workingWords.Count != 0)
+        if (workingWords.Count == 0)
         {
-            newWord = workingWords.Last();
-            workingWords.Remove(newWord);
+            ResetWorkingWords();
         }
-        
-        return newWord;
+
+        if (workingWords.Count > 0)
+        {
+            string newWord = workingWords.Last();
+            workingWords.RemoveAt(workingWords.Count - 1);
+            return newWord;
+        }
+
+        return string.Empty;
     }
+
+    private void ResetWorkingWords()
+    {
+        workingWords.Clear();
+        workingWords.AddRange(originalWords);
+        Shuffle(workingWords);
+        ConvertToLower(workingWords);
+    }
+
     void ReadWordBank()
     {
         string[] lines = WordBankTXT.text.Split(new[] { '\r', '\n' }, System.StringSplitOptions.RemoveEmptyEntries);
