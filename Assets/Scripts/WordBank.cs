@@ -42,7 +42,7 @@ public class WordBank : MonoBehaviour
     {
         if (workingWords.Count == 0)
         {
-            ResetWorkingWords();
+            //winning screen
         }
 
         if (workingWords.Count > 0)
@@ -53,14 +53,6 @@ public class WordBank : MonoBehaviour
         }
 
         return string.Empty;
-    }
-
-    private void ResetWorkingWords()
-    {
-        workingWords.Clear();
-        workingWords.AddRange(originalWords);
-        Shuffle(workingWords);
-        ConvertToLower(workingWords);
     }
 
     void ReadWordBank()
