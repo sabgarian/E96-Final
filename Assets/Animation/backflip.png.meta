@@ -1,0 +1,604 @@
+fileFormatVersion: 2
+guid: 456eae4077c05b64dbe93a60eb9aa1ab
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: backflip_1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1595
+        width: 379
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83feddfa7044ace4cb83c1aebca4748f
+      internalID: 15803624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backflip_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1599
+        width: 390
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ebc82520c41cb4b8e6c600d6bf4cb6
+      internalID: 1888163621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backflip_3
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1571
+        width: 384
+        height: 349
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f26e750709d2924c8b9c62c9ed7441e
+      internalID: 294304892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backflip_4
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1539
+        width: 334
+        height: 381
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27e46594c117a04da10966c33fb53f3
+      internalID: 1066025474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backflip_6
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 1097
+        width: 356
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4022d29e8a39124ea3d6a553ca565ea
+      internalID: -503983932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backflip_7
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 1085
+        width: 434
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3be40a36cf116c4c804bb068b9a58a7
+      internalID: 890580077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backflip_9
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 1085
+        width: 394
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ceff40b00f367241ad76565facbd055
+      internalID: -185097682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backflip_5
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1088
+        width: 313
+        height: 438
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b130de29130b64284337110a0c51cb
+      internalID: 276004326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backflip_10
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 639
+        width: 273
+        height: 449
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d3dca728932264d84da091620029a4
+      internalID: -1491731417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backflip_8
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 619
+        width: 406
+        height: 405
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b3e02a6ff5d7148840b548a00551e6
+      internalID: 2067097003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backflip_11
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 644
+        width: 384
+        height: 408
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771a89bb54a5ad343b82df109ad53bd7
+      internalID: -309518808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backflip_12
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 644
+        width: 392
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69aef2a7a46093a40b0fa98b9595133a
+      internalID: 563982013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backflip_13
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 205
+        width: 402
+        height: 365
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae682dd26ad412349aa026be33bdf279
+      internalID: -158646902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      backflip_1: 15803624
+      backflip_10: -1491731417
+      backflip_100: -1047324004
+      backflip_101: 191393209
+      backflip_102: 1264648549
+      backflip_103: 1543901814
+      backflip_104: 18715504
+      backflip_105: 319744747
+      backflip_106: 579097352
+      backflip_107: -351081986
+      backflip_108: 1470758611
+      backflip_109: -1961888737
+      backflip_11: -309518808
+      backflip_110: -1759539207
+      backflip_111: -1712287266
+      backflip_112: 4360325
+      backflip_113: 313767577
+      backflip_114: 1208644544
+      backflip_116: -923351377
+      backflip_117: -1705020963
+      backflip_118: -87841089
+      backflip_119: 99175290
+      backflip_12: 563982013
+      backflip_120: -2042162343
+      backflip_121: 1047397894
+      backflip_122: -1560468457
+      backflip_123: 309808690
+      backflip_124: 1856454030
+      backflip_126: -350532361
+      backflip_127: -1480170504
+      backflip_128: 1515691779
+      backflip_129: 16938682
+      backflip_13: -158646902
+      backflip_130: -1134114584
+      backflip_131: 777916236
+      backflip_132: 2101536654
+      backflip_133: -1290850879
+      backflip_136: -1144999262
+      backflip_138: 1873350356
+      backflip_139: 1649345656
+      backflip_14: -2021638487
+      backflip_140: -1864471647
+      backflip_141: 175533391
+      backflip_142: -1623243828
+      backflip_143: 540773540
+      backflip_144: 574368315
+      backflip_145: -1169459633
+      backflip_146: -1643317202
+      backflip_147: 1447488748
+      backflip_148: 669220571
+      backflip_149: 1655694065
+      backflip_15: -453494506
+      backflip_150: 1559347231
+      backflip_151: -554018466
+      backflip_152: 676667397
+      backflip_153: 847245188
+      backflip_154: -242324264
+      backflip_155: 565298524
+      backflip_156: -1066112017
+      backflip_157: 1769348244
+      backflip_158: 440189465
+      backflip_159: -896729607
+      backflip_16: 470627857
+      backflip_160: 382484859
+      backflip_161: 384454270
+      backflip_162: 609179468
+      backflip_163: -1870269001
+      backflip_164: 1506984069
+      backflip_165: 173917423
+      backflip_166: 1608406802
+      backflip_167: 2088648262
+      backflip_168: -12245013
+      backflip_169: -1902599590
+      backflip_17: -1091928669
+      backflip_170: -1563882154
+      backflip_171: 745475247
+      backflip_172: 1817824683
+      backflip_173: -1355148349
+      backflip_174: 15079916
+      backflip_175: 1229033799
+      backflip_176: 2140744878
+      backflip_177: 1872006800
+      backflip_178: -962809332
+      backflip_179: -1082893608
+      backflip_18: 645026169
+      backflip_180: 623479185
+      backflip_181: -1831899715
+      backflip_182: 1672976706
+      backflip_183: 50009354
+      backflip_184: 2015475431
+      backflip_185: -423952489
+      backflip_187: -1242317817
+      backflip_188: 462595171
+      backflip_189: -1258334583
+      backflip_19: -626776039
+      backflip_190: 1797050777
+      backflip_191: 1570256252
+      backflip_192: 195929093
+      backflip_193: -422124424
+      backflip_194: -1629422306
+      backflip_195: -1572138622
+      backflip_197: 336216443
+      backflip_198: -477343500
+      backflip_199: 60680935
+      backflip_2: 1888163621
+      backflip_20: 845325565
+      backflip_200: 825055100
+      backflip_201: -1684442004
+      backflip_202: -731793742
+      backflip_203: 61662897
+      backflip_204: 720903881
+      backflip_205: -933644813
+      backflip_206: -1303628954
+      backflip_207: 1063598512
+      backflip_208: 17009830
+      backflip_209: 1438334195
+      backflip_21: -212763558
+      backflip_211: 1983986092
+      backflip_212: -725690391
+      backflip_213: 1079014449
+      backflip_22: 652734870
+      backflip_23: 1843909434
+      backflip_24: -1392842982
+      backflip_25: 1080589551
+      backflip_26: -1921198874
+      backflip_27: 1325681393
+      backflip_28: 1930238200
+      backflip_29: -1793624835
+      backflip_3: 294304892
+      backflip_30: 1679584896
+      backflip_31: -724491891
+      backflip_32: 2134701611
+      backflip_33: 137340891
+      backflip_34: 1483699793
+      backflip_35: 1377884919
+      backflip_36: -933868863
+      backflip_37: -833312501
+      backflip_38: 1034028503
+      backflip_39: 445648759
+      backflip_4: 1066025474
+      backflip_40: -940871449
+      backflip_41: 2062646779
+      backflip_42: 1438211125
+      backflip_43: 1982546776
+      backflip_44: 1581831089
+      backflip_45: 1144691680
+      backflip_46: 1948236076
+      backflip_47: -1186957581
+      backflip_48: -1584537409
+      backflip_49: 1687669791
+      backflip_5: 276004326
+      backflip_50: -2070032025
+      backflip_51: 1035304078
+      backflip_52: -2123242145
+      backflip_53: -1410140461
+      backflip_54: -1444722588
+      backflip_55: 77414941
+      backflip_56: 1288238024
+      backflip_57: 693069524
+      backflip_58: -556439847
+      backflip_59: -1187777110
+      backflip_6: -503983932
+      backflip_60: -1183274639
+      backflip_61: -336488834
+      backflip_62: -1484861069
+      backflip_63: 1927463849
+      backflip_64: 100268567
+      backflip_65: -1551921806
+      backflip_66: -1144590735
+      backflip_67: 1741672184
+      backflip_68: 947313259
+      backflip_69: 963084112
+      backflip_7: 890580077
+      backflip_70: 1017075206
+      backflip_71: -140308954
+      backflip_72: -249938445
+      backflip_73: -1145025264
+      backflip_74: 35864764
+      backflip_75: -1266623133
+      backflip_76: 1190600209
+      backflip_78: -2097949650
+      backflip_79: -179326459
+      backflip_8: 2067097003
+      backflip_80: -35698919
+      backflip_81: -1781960983
+      backflip_82: -710652998
+      backflip_83: 1147776036
+      backflip_84: -101477903
+      backflip_85: 1155103690
+      backflip_86: 232171217
+      backflip_87: -947530628
+      backflip_88: -41333572
+      backflip_89: -225207951
+      backflip_9: -185097682
+      backflip_90: -1629976183
+      backflip_91: 1863187689
+      backflip_92: 90638250
+      backflip_93: -216937655
+      backflip_94: -1414181189
+      backflip_95: -867952665
+      backflip_96: 146915796
+      backflip_97: 1283100984
+      backflip_98: 956850344
+      backflip_99: 1790411817
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
