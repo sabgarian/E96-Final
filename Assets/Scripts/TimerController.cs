@@ -10,6 +10,7 @@ public class TimerController : MonoBehaviour
     public Image timer_image;
     float time_remaining;
     public float max_time = 4.0f;
+    public float time_penalty = 0.25f;
 
     void Start()
     {
@@ -33,5 +34,10 @@ public class TimerController : MonoBehaviour
     public void ResetTimer()
     {
         time_remaining = max_time;
+    }
+
+    public void WrongLetterPenalty()
+    {
+        time_remaining -= time_penalty;
     }
 }

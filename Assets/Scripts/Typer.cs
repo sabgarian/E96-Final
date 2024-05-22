@@ -60,6 +60,10 @@ public class Typer : MonoBehaviour
                 SetCurrentWord();
             }
         }
+        else
+        {
+            timer.WrongLetterPenalty();
+        }
     }
 
     private bool IsCorrectLetter(string letter)
