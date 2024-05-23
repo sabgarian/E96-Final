@@ -4,43 +4,29 @@ using UnityEngine;
 
 public class PauseMenu : MonoBehaviour
 {
-    public GameObject PausePanel;
-    public GameObject PauseButton;
-    public GameObject ResumeButton;
-    public static bool isPaused;
-    // Start is called before the first frame update
-    void Start()
-    {
-        PausePanel.SetActive(false);
-    }
+    [SerializeField] private GameObject PausePanel;
+    [SerializeField] private GameObject ResumeButton;
+    [SerializeField] private GameObject PauseButton;
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
-            if(isPaused) 
-            {
-                ResumeGame(); 
-            }
-
-            else
-            { 
-                PauseGame(); 
-            }   
-       
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            PauseGame();
+        }
     }
 
     public void PauseGame()
     {
+        PauseButton.SetActive(false);
         PausePanel.SetActive(true);
         Time.timeScale = 0;
-        isPaused = true;
     }   
     
     public void ResumeGame()
     {
+        PauseButton.SetActive(true);
         PausePanel.SetActive(false);
         Time.timeScale = 1f;
-        isPaused = false;
     }
 }
