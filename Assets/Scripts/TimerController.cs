@@ -27,7 +27,7 @@ public class TimerController : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene("MainMenu");
+            SceneManager.LoadScene("Game Over Screen");
         }
     }
 

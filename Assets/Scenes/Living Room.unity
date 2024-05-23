@@ -577,6 +577,7 @@ MonoBehaviour:
   ResumeButton: {fileID: 799153448}
   PauseButton: {fileID: 1693513831}
   Typer: {fileID: 1539898063}
+  TyperText: {fileID: 306619652}
 --- !u!114 &408011489
 MonoBehaviour:
   m_ObjectHideFlags: 0
