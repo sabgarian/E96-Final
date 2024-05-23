@@ -576,6 +576,7 @@ MonoBehaviour:
   PausePanel: {fileID: 834195344}
   ResumeButton: {fileID: 799153448}
   PauseButton: {fileID: 1693513831}
+  Typer: {fileID: 1539898063}
 --- !u!114 &408011489
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3836,6 +3837,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1539898063 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4301275901373732027, guid: 67b6e22d76298f449964adca7af96d5f, type: 3}
+  m_PrefabInstance: {fileID: 6689240912101780929}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1693513831
 GameObject:
   m_ObjectHideFlags: 0
