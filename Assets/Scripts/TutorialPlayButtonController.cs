@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PlayButtonController : MonoBehaviour
+public class TutorialPlayButtonController : MonoBehaviour
 {
     public void PlayButton()
     {
-        SceneManager.LoadScene("Living Room");
+        SceneManager.LoadScene("LivingRoom1");
     }
 }
