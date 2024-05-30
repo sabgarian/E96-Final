@@ -2,9 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.UIElements;
 
 public class Typer : MonoBehaviour
 {
+    [SerializeField] private SpriteRenderer spriteRenderer;
+    [SerializeField] private Sprite[] spriteArray;
+
     public WordBank wordBank = null;
     public Text wordOutput = null;
 
@@ -12,6 +16,7 @@ public class Typer : MonoBehaviour
 
     private string remainingWord = string.Empty;
     private string currentWord = string.Empty;
+    private int spriteIndex;
 
     private void Start()
     {
@@ -56,7 +61,9 @@ public class Typer : MonoBehaviour
 
             if(IsWordComplete())
             {
+                spriteIndex = Random.Range(0, spriteArray.Length);
                 timer.ResetTimer();
+                spriteRenderer.sprite = spriteArray[spriteIndex];
                 SetCurrentWord();
             }
         }
