@@ -951,8 +951,9 @@ GameObject:
   m_Component:
   - component: {fileID: 534960993}
   - component: {fileID: 534960992}
+  - component: {fileID: 534960994}
   m_Layer: 0
-  m_Name: mactonite_-_Uncertainty
+  m_Name: BackgroundMusic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -972,7 +973,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1069,6 +1070,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &534960994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534960991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 878e787a61a1646449870a4c83ebda96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &611045673
 GameObject:
   m_ObjectHideFlags: 0
