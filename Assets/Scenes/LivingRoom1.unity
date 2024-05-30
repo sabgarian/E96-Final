@@ -264,7 +264,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 588249efdc79ec941af8392ee7378f1e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4283,6 +4283,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56a2ac037ce1aae44a95688fedadd348, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 80039115}
+  happySprite: {fileID: 21300000, guid: afa412843714548419496c1f0e9bdcd6, type: 3}
+  neutralSprite: {fileID: 21300000, guid: 588249efdc79ec941af8392ee7378f1e, type: 3}
+  boredSprite: {fileID: 21300000, guid: f098b03567198e54f8f3ac9c0a2daa0d, type: 3}
   timer_image: {fileID: 987347071}
   max_time: 4
   time_penalty: 0.25
@@ -5245,6 +5249,46 @@ PrefabInstance:
       propertyPath: wordOutput
       value: 
       objectReference: {fileID: 306619654}
+    - target: {fileID: 4637343424061526650, guid: 67b6e22d76298f449964adca7af96d5f, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 1469439849}
+    - target: {fileID: 4637343424061526650, guid: 67b6e22d76298f449964adca7af96d5f, type: 3}
+      propertyPath: spriteArray.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4637343424061526650, guid: 67b6e22d76298f449964adca7af96d5f, type: 3}
+      propertyPath: spriteArray.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 692b5e2d57be21c4d8ef6f8ffb391902, type: 3}
+    - target: {fileID: 4637343424061526650, guid: 67b6e22d76298f449964adca7af96d5f, type: 3}
+      propertyPath: spriteArray.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: a5a7a58c2e2b2c44d992d07525fbf252, type: 3}
+    - target: {fileID: 4637343424061526650, guid: 67b6e22d76298f449964adca7af96d5f, type: 3}
+      propertyPath: spriteArray.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 43a461bb6695a8e46a8d3b8caff3f3bc, type: 3}
+    - target: {fileID: 4637343424061526650, guid: 67b6e22d76298f449964adca7af96d5f, type: 3}
+      propertyPath: spriteArray.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: b8950045069065244aefc5df5781fa6f, type: 3}
+    - target: {fileID: 4637343424061526650, guid: 67b6e22d76298f449964adca7af96d5f, type: 3}
+      propertyPath: spriteArray.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: b821ce8b83ccd4c47a4f7420d394ea71, type: 3}
+    - target: {fileID: 4637343424061526650, guid: 67b6e22d76298f449964adca7af96d5f, type: 3}
+      propertyPath: spriteArray.Array.data[5]
+      value: 
+      objectReference: {fileID: 21300000, guid: f225742eb4e4fa844a2b59df0535012a, type: 3}
+    - target: {fileID: 4637343424061526650, guid: 67b6e22d76298f449964adca7af96d5f, type: 3}
+      propertyPath: spriteArray.Array.data[6]
+      value: 
+      objectReference: {fileID: 21300000, guid: 9c600e7c46ceda24288e9168e9b44da6, type: 3}
+    - target: {fileID: 4637343424061526650, guid: 67b6e22d76298f449964adca7af96d5f, type: 3}
+      propertyPath: spriteArray.Array.data[7]
+      value: 
+      objectReference: {fileID: 21300000, guid: 53ac4ddd38c12654aad63a328fbbfcb7, type: 3}
     - target: {fileID: 6724596586066024121, guid: 67b6e22d76298f449964adca7af96d5f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
