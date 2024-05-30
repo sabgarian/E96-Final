@@ -12,6 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/LivingRoom1.unity
     guid: df7ffc817ad2a9c408f0d292ed6712a2
   - enabled: 1
+    path: Assets/Scenes/Mem 1.unity
+    guid: b821b7da26fa0004ebf4de25876fb7eb
+  - enabled: 1
+    path: Assets/Scenes/Mem 3.unity
+    guid: 4b815dda75084eb468cc10c8683197a5
+  - enabled: 1
     path: Assets/Scenes/Winning Screen.unity
     guid: a20d68cdf56261a4187cc4b8049e7630
   - enabled: 1
