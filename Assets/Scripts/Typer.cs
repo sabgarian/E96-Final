@@ -18,6 +18,7 @@ public class Typer : MonoBehaviour
     private string remainingWord = string.Empty;
     private string currentWord = string.Empty;
     private int spriteIndex;
+    private int indexTracker;
 
     private void Start()
     {
@@ -63,8 +64,11 @@ public class Typer : MonoBehaviour
             if(IsWordComplete())
             {
                 spriteIndex = Random.Range(0, spriteArray.Length);
-                timer.ResetTimer();
+                while (spriteIndex == indexTracker)
+                    spriteIndex = Random.Range(0, spriteArray.Length);
                 spriteRenderer.sprite = spriteArray[spriteIndex];
+                indexTracker = spriteIndex;
+                timer.ResetTimer();
                 SetCurrentWord();
             }
         }
