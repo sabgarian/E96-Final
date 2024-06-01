@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Mem 1.unity
     guid: b821b7da26fa0004ebf4de25876fb7eb
   - enabled: 1
-    path: Assets/Scenes/Mem 3.unity
+    path: Assets/Scenes/Mem 2.unity
     guid: 4b815dda75084eb468cc10c8683197a5
   - enabled: 1
     path: Assets/Scenes/Winning Screen.unity
