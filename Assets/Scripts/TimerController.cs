@@ -6,16 +6,25 @@ using UnityEngine.UI;
 
 public class TimerController : MonoBehaviour
 {
+    [SerializeField] private SpriteRenderer spriteRenderer;
+    [SerializeField] private Sprite happySprite;
+    [SerializeField] private Sprite neutralSprite;
+    [SerializeField] private Sprite boredSprite;
+
     private Scene currentScene;
     public Image timer_image;
     float time_remaining;
     public float max_time = 4.0f;
     public float time_penalty = 0.25f;
+    private float neutralTime;
+    private float boredTime;
 
     void Start()
     {
         currentScene = SceneManager.GetActiveScene();
         time_remaining = max_time;
+        neutralTime = max_time * (2 / 3f);
+        boredTime = max_time * (1 / 3f);
     }
 
     void Update()
@@ -28,6 +37,18 @@ public class TimerController : MonoBehaviour
         else
         {
             SceneManager.LoadScene("Game Over Screen");
+        }
+        if (time_remaining > neutralTime)
+        {
+            spriteRenderer.sprite = happySprite;
+        }
+        else if (time_remaining < neutralTime && time_remaining > boredTime)
+        {
+            spriteRenderer.sprite = neutralSprite;
+        }
+        else if (time_remaining < boredTime)
+        {
+            spriteRenderer.sprite = boredSprite;
         }
     }
 

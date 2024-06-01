@@ -3,10 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.TextCore.Text;
 using System.Linq;
+using UnityEditor.SearchService;
+using UnityEngine.SceneManagement;
 
 public class WordBank : MonoBehaviour
 {
     [SerializeField] UnityEngine.TextAsset WordBankTXT;
+
+    [SerializeField] private string nextScene;
+
     private List<string> originalWords = new List<string>();
     private List<string> workingWords = new List<string>();
 
@@ -42,7 +47,7 @@ public class WordBank : MonoBehaviour
     {
         if (workingWords.Count == 0)
         {
-            //winning screen
+            SceneManager.LoadScene(nextScene);
         }
 
         if (workingWords.Count > 0)

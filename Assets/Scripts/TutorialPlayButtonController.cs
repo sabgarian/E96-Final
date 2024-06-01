@@ -7,6 +7,7 @@ public class TutorialPlayButtonController : MonoBehaviour
 {
     public void PlayButton()
     {
+        
         SceneManager.LoadScene("LivingRoom1");
     }
 }
