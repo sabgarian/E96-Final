@@ -2297,7 +2297,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Created By:'
+  m_text: 'Created By: Stefan Abgarian and Natalie Demarco'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a28d40645090a2046a3fb76b05e5dc6d, type: 2}
   m_sharedMaterial: {fileID: -6137971910632177384, guid: a28d40645090a2046a3fb76b05e5dc6d, type: 2}
@@ -2324,8 +2324,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 250
-  m_fontSizeBase: 250
+  m_fontSize: 100
+  m_fontSizeBase: 100
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3486,11 +3486,20 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Stefan Abgarian
+  m_text: 'Music: Uncertainty by Darkroom (c) copyright 2024 Licensed under a Creative
+    Commons Attribution Noncommercial (4.0) license.
 
-    and
+    "Squish" Sound FX: ZapSplat
 
-    Natalie Demarco'
+    Kawaii
+    GUI Pack: LILA Design
+
+    371 Simple Buttons Pack: Nayrissa
+
+    2D Living Room
+    Furniture Pack: UpadlySzczurek
+
+    Scratchy Font: Creatype Studio'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a28d40645090a2046a3fb76b05e5dc6d, type: 2}
   m_sharedMaterial: {fileID: -6137971910632177384, guid: a28d40645090a2046a3fb76b05e5dc6d, type: 2}
@@ -3517,8 +3526,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 150
-  m_fontSizeBase: 150
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
