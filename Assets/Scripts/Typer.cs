@@ -10,6 +10,8 @@ public class Typer : MonoBehaviour
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private Sprite[] spriteArray;
 
+    [SerializeField] private AudioSource SFXSource;
+
     public WordBank wordBank = null;
     public Text wordOutput = null;
 
@@ -69,6 +71,8 @@ public class Typer : MonoBehaviour
                 spriteRenderer.sprite = spriteArray[spriteIndex];
                 indexTracker = spriteIndex;
                 timer.ResetTimer();
+                SFXSource.Play();
+
                 SetCurrentWord();
             }
         }
