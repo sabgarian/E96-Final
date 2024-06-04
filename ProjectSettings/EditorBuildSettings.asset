@@ -15,15 +15,24 @@ EditorBuildSettings:
     path: Assets/Scenes/Mem 1.unity
     guid: b821b7da26fa0004ebf4de25876fb7eb
   - enabled: 1
+    path: Assets/Scenes/LivingRoom2.unity
+    guid: e60a04bb3692bfb48b9ad4dc04af5c04
+  - enabled: 1
     path: Assets/Scenes/Mem 2.unity
     guid: 4b815dda75084eb468cc10c8683197a5
+  - enabled: 1
+    path: Assets/Scenes/LivingRoom3.unity
+    guid: 95b7f54ba0c45fd4d9705bb4f8ef4d90
+  - enabled: 1
+    path: Assets/Scenes/Mem 3.unity
+    guid: fd13d9aed2da1474698bcb498582cadf
+  - enabled: 1
+    path: Assets/Scenes/LivingRoom4.unity
+    guid: 8edd91d955440594088f450e8b775864
   - enabled: 1
     path: Assets/Scenes/Winning Screen.unity
     guid: a20d68cdf56261a4187cc4b8049e7630
   - enabled: 1
     path: Assets/Scenes/Game Over Screen.unity
     guid: c7786462259aa8742903db9262f6e902
-  - enabled: 1
-    path: Assets/Scenes/LivingRoom2.unity
-    guid: e60a04bb3692bfb48b9ad4dc04af5c04
   m_configObjects: {}

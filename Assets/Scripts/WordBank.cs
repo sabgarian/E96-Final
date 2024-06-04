@@ -10,7 +10,7 @@ public class WordBank : MonoBehaviour
 {
     [SerializeField] UnityEngine.TextAsset WordBankTXT;
 
-    [SerializeField] private string nextScene;
+    public LevelLoader levelLoader;
 
     private List<string> originalWords = new List<string>();
     private List<string> workingWords = new List<string>();
@@ -47,7 +47,7 @@ public class WordBank : MonoBehaviour
     {
         if (workingWords.Count == 0)
         {
-            SceneManager.LoadScene(nextScene);
+            levelLoader.LoadNextLevel();
         }
 
         if (workingWords.Count > 0)

@@ -5,20 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class NextSceneLoader : MonoBehaviour
 {
-
-    [SerializeField] string nextScene;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
+    public LevelLoader levelLoader;
     // Update is called once per frame
     void Update()
     {
         if(Input.anyKeyDown)
         {
-            SceneManager.LoadScene(nextScene);
+            levelLoader.LoadNextLevel();
         }
     }
 }

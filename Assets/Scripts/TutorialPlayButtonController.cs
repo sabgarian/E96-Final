@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class TutorialPlayButtonController : MonoBehaviour
 {
+    public LevelLoader levelLoader;
     public void PlayButton()
     {
-        
-        SceneManager.LoadScene("LivingRoom1");
+        levelLoader.LoadNextLevel();
     }
 }
