@@ -17,9 +17,18 @@ public class WordBank : MonoBehaviour
 
     private void Awake()
     {
+        UnityEngine.SceneManagement.Scene currentScene = SceneManager.GetActiveScene();
+        Debug.Log(currentScene.name);
+
         ReadWordBank();
         workingWords.AddRange(originalWords);
-        Shuffle(workingWords);
+        if(currentScene.name != "LivingRoom4")
+        {
+            Shuffle(workingWords);
+            Debug.Log("Not living room 4");
+        }
+        
+
         ConvertToLower(workingWords);
     }
 
