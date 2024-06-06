@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.TextCore.Text;
 using System.Linq;
-using UnityEditor.SearchService;
+// using UnityEditor.SearchService;
 using UnityEngine.SceneManagement;
 
 public class WordBank : MonoBehaviour
